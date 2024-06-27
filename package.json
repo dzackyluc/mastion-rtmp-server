@@ -1,0 +1,15 @@
+{
+  "name": "mastion-rtmp-server",
+  "version": "1.0.0",
+  "description": "a rtmp server for mastion robot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mas-Tion",
+  "license": "ISC",
+  "dependencies": {
+    "node-media-server": "^2.7.0"
+  }
+}
