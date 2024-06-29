@@ -4,8 +4,7 @@
   "description": "a rtmp server for mastion robot",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js"
   },
   "author": "Mas-Tion",
   "license": "ISC",
