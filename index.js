@@ -4,14 +4,14 @@ const NodeMediaServer = require('node-media-server');
 // Step 2: Configure the RTMP server
 const config = {
   rtmp: {
-    port: 1935,
+    port: process.env.RTMP_PORT || 1935,
     chunk_size: 60000,
     gop_cache: true,
     ping: 30,
     ping_timeout: 60
   },
   http: {
-    port: 8000,
+    port: process.env.PORT || 8000,
     allow_origin: '*'
   }
 };
