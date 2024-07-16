@@ -21,7 +21,7 @@ const config = {
     host: '0.0.0.0'
   },
   trans: {
-    ffmpeg: process.env.FFMPEG_PATH || '/usr/bin/ffmpeg',
+    ffmpeg: process.env.FFMPEG_PATH || '/usr/local/bin/ffmpeg',
     tasks: [
       {
         app: 'live',
